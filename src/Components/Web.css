@@ -1,0 +1,117 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ,monospace;
+    font-weight: bold;
+}
+.header1{
+    margin-top: 5px;
+}
+.header1 a {
+    margin: 1%;
+    color:  rgb(238, 104, 15);
+}
+.header1 span , i{
+    color: rgb(238, 104, 15);
+    margin: 1%;
+    font-size: 1.2pc;
+}
+.header1 span{
+    margin-left: 42%;
+}
+.brand-name{
+    color:rgb(238, 104, 15) ; font-size: 1.7pc; font-weight: bold;
+}
+.nav-links {
+    margin-left: 6%;
+}
+.nav-links a{
+    margin-left: 4%;
+}
+.d-flex{
+     width: 20pc; margin-right: 5pc;
+}
+.d-flex .search{
+    border: 1px solid rgb(207, 207, 207); padding: 6px 5px 5px 4px; border-top-right-radius: 7px;
+    height: 38px; width: 35px; color: whitesmoke; background-color: rgb(238, 104, 15);
+    border-bottom-right-radius: 7px;
+}
+.home{
+    color: rgb(238, 104, 15);
+}
+.about{
+    text-align: center; margin-top: 20%;
+}
+.about h1{ font-size: 2pc; font-weight: bold;}
+.about p{ margin: 3% 13% 0% 13%;}
+.slides{ border-radius: 10px;}
+.choose h1{
+     text-align: center; margin-top: 8pc; font-weight: bold; font-size: 2pc;
+}.choose .blocks{
+    display: inline; display: flex; text-align: center; margin-top: 3pc;
+}
+.team{ 
+    text-align: center; margin-top: 5pc;
+}
+.team-blocks{
+    display: flex;  margin: '5% 5% 0% 5%' 
+}
+.news{
+    display: flex; margin-top: 5pc; background-color: rgb(238, 104, 15);width: 100%; height: 10pc;
+    align-items: center;
+}
+.email{
+    width: 35%; margin-left: 10%; height: 3.5pc;
+}
+@media only screen and (max-width: 768px) {
+    .header1 a {
+    margin: 4%; font-size: 1.8pc;margin-left: 9%;
+    color:  rgb(238, 104, 15); 
+}
+.header1 span , i{
+    color: rgb(238, 104, 15);
+    margin: 6%; 
+    font-size: 1.2pc; 
+}
+
+.brand-name{
+    color:rgb(238, 104, 15) ; font-size: 1.5pc; font-weight: bold;
+}
+.nav-links {
+    margin-left: 6%;
+}
+.nav-links a{
+    margin-left: 4%;
+}
+.d-flex{
+    margin-left: 16%; width: 10pc;
+}
+.d-flex .search{
+    border: 1px solid rgb(207, 207, 207); padding: 6px 5px 5px 4px; border-top-right-radius: 7px;
+    height: 38px; width: 35px; color: whitesmoke; background-color: rgb(238, 104, 15);
+    border-bottom-right-radius: 7px;
+}
+
+.about{
+    text-align: center; margin-top: 20%;
+}
+.about h1{ font-size: 2pc; font-weight: bold;}
+.about p{ margin: 7% 0% 0% 0%;}
+.slides{ height: 17pc;}
+.choose h1{
+     text-align: center; margin-top: 8pc; font-weight: bold; font-size: 2pc;
+}.choose .blocks{
+ text-align: center; margin-top: 3pc; display: block;
+}
+.team{ 
+    text-align: center; margin-top: 5pc;
+}
+.team-blocks{
+    display: grid; margin-left: 8%;
+}
+.news{
+    display: grid; margin-top: 5pc; background-color: rgb(238, 104, 15);width: 100%; height: 20pc;
+    align-items: center;
+  }
+.email{
+    width: 85%; margin-left: 7%;
+}
+}
