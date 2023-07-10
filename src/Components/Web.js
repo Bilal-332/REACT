@@ -50,8 +50,8 @@ export default function Web() {
                             />
                             <FaSearch className='search' />
                         </Form>
-                    <FaFacebookMessenger style={{ color: 'rgb(238, 104, 15)', marginLeft: '0pc', fontSize: '1.3pc' }} />
-                        <FaBell style={{ color: 'rgb(238, 104, 15)', marginLeft: '2pc', fontSize: '1.3pc' }} />
+                    <FaFacebookMessenger className='msg-icon' />
+                        <FaBell className='bell-icon'/>
                 </Container>
             </Navbar>
             <Breadcrumb className='ms-5 my-4'>
@@ -162,7 +162,7 @@ export default function Web() {
                     </Button>
                 </InputGroup>
             </div>
-            <MDBFooter  className='text-center text-lg-start text-muted' style={{backgroundColor :'lightgray'}}>
+            <MDBFooter  className='text-center text-lg-start text-muted' style={{backgroundColor :'rgb(238, 235, 235)'}}>
                 <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
                     <div>
                         <a href='' className='me-4 text-reset'>

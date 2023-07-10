@@ -3,7 +3,7 @@
     font-weight: bold;
 }
 .header1{
-    margin-top: 5px;
+    margin-top: 5px; background-color: rgb(238, 235, 235);
 }
 .header1 a {
     margin: 1%;
@@ -34,8 +34,11 @@
     height: 38px; width: 35px; color: whitesmoke; background-color: rgb(238, 104, 15);
     border-bottom-right-radius: 7px;
 }
-.home{
-    color: rgb(238, 104, 15);
+.msg-icon{
+    color: rgb(238, 104, 15); margin-right: 2pc; font-size: 1.4pc;
+}
+.bell-icon{
+    color: rgb(238, 104, 15);  margin-right: 6pc; font-size: 1.4pc;
 }
 .about{
     text-align: center; margin-top: 20%;
@@ -82,14 +85,19 @@
     margin-left: 4%;
 }
 .d-flex{
-    margin-left: 16%; width: 10pc;
+    margin-left: 0%; width: 15pc; margin-top: 1pc;
 }
 .d-flex .search{
     border: 1px solid rgb(207, 207, 207); padding: 6px 5px 5px 4px; border-top-right-radius: 7px;
     height: 38px; width: 35px; color: whitesmoke; background-color: rgb(238, 104, 15);
     border-bottom-right-radius: 7px;
 }
-
+.msg-icon{
+    color: rgb(238, 104, 15); margin-top: 2pc; font-size: 1.4pc;
+}
+.bell-icon{
+    color: rgb(238, 104, 15); margin-top: 2pc; font-size: 1.4pc; margin-right: 11pc;
+}
 .about{
     text-align: center; margin-top: 20%;
 }
